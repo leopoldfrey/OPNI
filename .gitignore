@@ -7,3 +7,6 @@ videos/*
 videos_codec
 videos.txt
 textes.txt
+.DS_Store
+*.app
+

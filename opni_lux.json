@@ -1,0 +1,24 @@
+{
+	"pattrstorage" : 	{
+		"name" : "opni_lux",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"black_chance" : [ 0 ],
+					"cut_chance" : [ 20 ],
+					"fade_dur" : [ 8.0 ],
+					"max_master" : [ 12 ],
+					"midi_chan" : [ 9 ],
+					"midi_device" : [ "Gestionnaire IAC Bus 1" ],
+					"wait_min_dur" : [ 120.0 ],
+					"wiat_max_dur" : [ 240.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

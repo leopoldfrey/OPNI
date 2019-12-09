@@ -1,0 +1,26 @@
+{
+	"pattrstorage" : 	{
+		"name" : "opni_son",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"cut_chance" : [ 15 ],
+					"master_max" : [ 108 ],
+					"master_min" : [ 45 ],
+					"maxA" : [ 127 ],
+					"maxB" : [ 127 ],
+					"midi_out" : [ "Gestionnaire IAC Bus 1" ],
+					"rand_fade" : [ 5.0 ],
+					"silence_chance" : [ 14 ],
+					"silence_max_dur" : [ 120.0 ],
+					"silence_min_dur" : [ 5.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

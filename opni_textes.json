@@ -1,0 +1,37 @@
+{
+	"pattrstorage" : 	{
+		"name" : "opni_textes",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bgcolor" : [ 0, 0, 0 ],
+					"colorF" : [ 255, 0, 0 ],
+					"colorH" : [ 16, 0, 223 ],
+					"colorHF" : [ 32, 254, 91 ],
+					"colorHH" : [ 191, 0, 254 ],
+					"colorS" : [ 0, 0, 0 ],
+					"colorT" : [ 255, 255, 255 ],
+					"font" : [ 759 ],
+					"fontsize" : [ 20 ],
+					"fontstyle" : [ 0 ],
+					"grains" : [ 50 ],
+					"midi_input" : [ "Gestionnaire IAC Bus 1" ],
+					"midi_output" : [ "Gestionnaire IAC Bus 1" ],
+					"midiout" : [ 0 ],
+					"notext_chance" : [ 30 ],
+					"notext_max_dur" : [ 98.0 ],
+					"notext_min_dur" : [ 50.0 ],
+					"print-chance" : [ 70 ],
+					"print_max_dur" : [ 57.0 ],
+					"print_min_dur" : [ 20.0 ],
+					"txtcolor" : [ 247, 247, 247 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

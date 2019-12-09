@@ -21,8 +21,8 @@
 					"midiout" : [ 0 ],
 					"notext_chance" : [ 30 ],
 					"notext_max_dur" : [ 98.0 ],
-					"notext_min_dur" : [ 51.0 ],
-					"print-chance" : [ 70 ],
+					"notext_min_dur" : [ 20.0 ],
+					"print-chance" : [ 26 ],
 					"print_max_dur" : [ 57.0 ],
 					"print_min_dur" : [ 20.0 ],
 					"txtcolor" : [ 247, 247, 247 ]

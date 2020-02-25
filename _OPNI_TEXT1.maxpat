@@ -313,6 +313,34 @@
 						"title" : "CONFIGURATION ÉCRAN",
 						"boxes" : [ 							{
 								"box" : 								{
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontname" : "Arial Bold",
+									"fontsize" : 10.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 259.75, 93.0, 62.0, 20.0 ],
+									"text" : "s prompt_3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontname" : "Arial Bold",
+									"fontsize" : 10.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 192.75, 93.0, 62.0, 20.0 ],
+									"text" : "s prompt_2"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-68",
 									"linecount" : 5,
 									"maxclass" : "comment",
@@ -2094,7 +2122,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 239.75, 54.0, 63.0, 18.0 ],
+									"patching_rect" : [ 435.75, 54.0, 63.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 327.25, 8.882141000000001, 55.0, 25.0 ],
 									"rounded" : 5.0,
@@ -2115,7 +2143,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 354.149993999999992, 24.0, 63.0, 20.0 ],
+									"patching_rect" : [ 550.149993999999992, 24.0, 63.0, 20.0 ],
 									"text" : "closebang"
 								}
 
@@ -2130,7 +2158,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 239.75, 21.0, 49.0, 20.0 ],
+									"patching_rect" : [ 435.75, 21.0, 49.0, 20.0 ],
 									"text" : "r initTXT"
 								}
 
@@ -2144,7 +2172,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 239.75, 83.0, 32.0, 20.0 ],
+									"patching_rect" : [ 435.75, 83.0, 32.0, 20.0 ],
 									"text" : "1"
 								}
 
@@ -2158,7 +2186,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 386.75, 84.0, 44.0, 20.0 ],
+									"patching_rect" : [ 582.75, 84.0, 44.0, 20.0 ],
 									"text" : "store 1"
 								}
 
@@ -2173,7 +2201,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 309.75, 147.0, 233.0, 20.0 ],
+									"patching_rect" : [ 505.75, 147.0, 233.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 795, 226, 1195, 726 ],
 										"parameter_enable" : 0,
@@ -2197,7 +2225,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 309.75, 54.0, 63.0, 18.0 ],
+									"patching_rect" : [ 505.75, 54.0, 63.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 387.0, 8.882141000000001, 55.0, 25.0 ],
 									"rounded" : 5.0,
@@ -2220,7 +2248,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 309.75, 83.0, 58.0, 20.0 ],
+									"patching_rect" : [ 505.75, 83.0, 58.0, 20.0 ],
 									"text" : "writeagain"
 								}
 
@@ -2234,7 +2262,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 309.75, 14.0, 30.0, 30.0 ]
+									"patching_rect" : [ 505.75, 14.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -2245,24 +2273,24 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 417.150023999999974, 118.0, 56.0, 20.0 ],
+									"patching_rect" : [ 613.15002400000003, 118.0, 56.0, 20.0 ],
 									"restore" : 									{
-										"p1h" : [ 600 ],
-										"p1w" : [ 800 ],
-										"p1x" : [ 1680 ],
-										"p1y" : [ 0 ],
-										"p2h" : [ 200 ],
+										"p1h" : [ 300 ],
+										"p1w" : [ 400 ],
+										"p1x" : [ 0 ],
+										"p1y" : [ 100 ],
+										"p2h" : [ 300 ],
 										"p2w" : [ 400 ],
-										"p2x" : [ 50 ],
-										"p2y" : [ 250 ],
-										"p3h" : [ 200 ],
-										"p3w" : [ 400 ],
-										"p3x" : [ 50 ],
-										"p3y" : [ 450 ]
+										"p2x" : [ 0 ],
+										"p2y" : [ 500 ],
+										"p3h" : [ 279 ],
+										"p3w" : [ 439 ],
+										"p3x" : [ 540 ],
+										"p3y" : [ 940 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u316000739"
+									"varname" : "u510003297"
 								}
 
 							}
@@ -2273,7 +2301,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 309.75, 117.0, 81.0, 20.0 ],
+									"patching_rect" : [ 505.75, 117.0, 81.0, 20.0 ],
 									"text" : "storagewindow"
 								}
 
@@ -2290,7 +2318,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"midpoints" : [ 319.25, 79.0, 396.25, 79.0 ],
+									"midpoints" : [ 515.25, 79.0, 592.25, 79.0 ],
 									"order" : 0,
 									"source" : [ "obj-11", 0 ]
 								}
@@ -2326,7 +2354,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-2", 0 ],
+									"order" : 1,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 0,
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -2334,6 +2371,31 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
+									"order" : 2,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"order" : 1,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"order" : 2,
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -2669,7 +2731,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
-									"midpoints" : [ 249.25, 136.5, 319.25, 136.5 ],
+									"midpoints" : [ 445.25, 136.5, 515.25, 136.5 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -2677,7 +2739,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
-									"midpoints" : [ 396.25, 136.5, 319.25, 136.5 ],
+									"midpoints" : [ 592.25, 136.5, 515.25, 136.5 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -2972,6 +3034,7 @@
 									"patching_rect" : [ 780.0, 92.0, 42.0, 32.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.0, 415.0, 53.0, 32.0 ],
+									"saturation" : 252,
 									"varname" : "colorA"
 								}
 
@@ -3956,7 +4019,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u875000737"
+									"varname" : "u005003295"
 								}
 
 							}
@@ -10707,7 +10770,6 @@
 					"patching_rect" : [ 570.0, 216.0, 124.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 45.0, 120.0, 20.0 ],
-					"text" : "wait : 0.0/35.4",
 					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
 					"textjustification" : 1
 				}
@@ -12959,7 +13021,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 432.0, 112.0, 382.0, 22.0 ],
-													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI-master/textes/\""
+													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI/textes\""
 												}
 
 											}
@@ -13618,7 +13680,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 46.0, 112.0, 382.0, 22.0 ],
-													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI-master/textes/\""
+													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI/textes\""
 												}
 
 											}
@@ -14729,8 +14791,8 @@
 								"box" : 								{
 									"bgcolor" : [ 0.235294, 0.235294, 0.235294, 1.0 ],
 									"bordercolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-									"coldef" : [ [ 0, 150, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 1, 35, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 2, 35, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 3, 35, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ] ],
-									"cols" : 4,
+									"coldef" : [ [ 0, 150, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ] ],
+									"cols" : 1,
 									"colwidth" : 90,
 									"fgcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
 									"fontface" : 0,
@@ -14749,7 +14811,7 @@
 									"patching_rect" : [ 50.0, 210.0, 279.0, 181.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 131.0, 273.0, 560.0 ],
-									"rows" : 16,
+									"rows" : 1,
 									"savemode" : 1,
 									"sccolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"selmode" : 3,
@@ -15498,42 +15560,42 @@
 			}
 , 			{
 				"name" : "delvar.maxpat",
-				"bootpath" : "~/Downloads/OPNI-master",
+				"bootpath" : "~/Downloads/OPNI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xrand.maxpat",
-				"bootpath" : "~/Downloads/OPNI-master",
+				"bootpath" : "~/Downloads/OPNI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randnodup.maxpat",
-				"bootpath" : "~/Downloads/OPNI-master",
+				"bootpath" : "~/Downloads/OPNI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "prompt_ctrl.maxpat",
-				"bootpath" : "~/Downloads/OPNI-master",
+				"bootpath" : "~/Downloads/OPNI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "opni_textes.json",
-				"bootpath" : "~/Downloads/OPNI-master",
+				"bootpath" : "~/Downloads/OPNI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "opni_promptscreen.json",
-				"bootpath" : "~/Downloads/OPNI-master",
+				"bootpath" : "~/Downloads/OPNI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

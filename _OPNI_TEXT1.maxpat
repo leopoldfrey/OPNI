@@ -2290,7 +2290,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u321001893"
+									"varname" : "u882005923"
 								}
 
 							}
@@ -3034,7 +3034,6 @@
 									"patching_rect" : [ 780.0, 92.0, 42.0, 32.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.0, 415.0, 53.0, 32.0 ],
-									"saturation" : 252,
 									"varname" : "colorA"
 								}
 
@@ -3995,7 +3994,7 @@
 									"patching_rect" : [ 393.433350000000019, 612.0, 56.0, 20.0 ],
 									"restore" : 									{
 										"bgcolor" : [ 0, 0, 0 ],
-										"colorA" : [ 214, 111, 255 ],
+										"colorA" : [ 0, 134, 223 ],
 										"colorF" : [ 255, 0, 0 ],
 										"colorH" : [ 16, 0, 223 ],
 										"colorHF" : [ 32, 254, 91 ],
@@ -4019,7 +4018,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u050001891"
+									"varname" : "u380005921"
 								}
 
 							}
@@ -10318,7 +10317,7 @@
 									"allowdrag" : 0,
 									"depth" : 1,
 									"id" : "obj-66",
-									"items" : [ "action/action1.txt", ",", "action/action2.txt", ",", "duo/txt1 copie 10.txt", ",", "duo/txt1 copie 9.txt", ",", "duoHF/txt1 copie 11.txt", ",", "duoHF/txt1 copie 12.txt", ",", "duoHF/txt1 copie 13.txt", ",", "duoHF/txt1 copie.txt", ",", "duoHF/txt1.txt", ",", "solo/txt1 copie 8.txt", ",", "soloF/txt1 copie 6.txt", ",", "soloF/txt1 copie 7.txt", ",", "soloH/txt1 copie 2.txt", ",", "soloH/txt1 copie 5.txt", ",", "trio/txt1 copie 3.txt", ",", "trio/txt1 copie 4.txt" ],
+									"items" : [ "action/tmp.txt", ",", "duo/tmp.txt", ",", "duoHF/tmp.txt", ",", "solo/tmp.txt", ",", "soloF/tmp.txt", ",", "soloH/tmp.txt", ",", "trio/tmp.txt" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10932,7 +10931,19 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 352.0, 100.0, 18.0, 22.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-21",
 									"maxclass" : "newobj",
@@ -13021,7 +13032,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 432.0, 112.0, 382.0, 22.0 ],
-													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI/textes\""
+													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI/textes/\""
 												}
 
 											}
@@ -13227,14 +13238,14 @@
 													"autopopulate" : 1,
 													"depth" : 1,
 													"id" : "obj-94",
-													"items" : [ "action/action1.txt", ",", "action/action2.txt", ",", "duo/txt1 copie 10.txt", ",", "duo/txt1 copie 9.txt", ",", "duoHF/txt1 copie 11.txt", ",", "duoHF/txt1 copie 12.txt", ",", "duoHF/txt1 copie 13.txt", ",", "duoHF/txt1 copie.txt", ",", "duoHF/txt1.txt", ",", "solo/txt1 copie 8.txt", ",", "soloF/txt1 copie 6.txt", ",", "soloF/txt1 copie 7.txt", ",", "soloH/txt1 copie 2.txt", ",", "soloH/txt1 copie 5.txt", ",", "trio/txt1 copie 3.txt", ",", "trio/txt1 copie 4.txt" ],
+													"items" : [ "action/tmp.txt", ",", "duo/tmp.txt", ",", "duoHF/tmp.txt", ",", "solo/tmp.txt", ",", "soloF/tmp.txt", ",", "soloH/tmp.txt", ",", "trio/tmp.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 479.0, 328.0, 100.0, 22.0 ],
-													"prefix" : "Macintosh HD:/Users/longsimulacre/Downloads/OPNI-master/textes/",
+													"prefix" : "Macintosh HD:/Users/longsimulacre/Downloads/OPNI/textes/",
 													"prefix_mode" : 2,
 													"types" : "TEXT"
 												}
@@ -13680,7 +13691,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 46.0, 112.0, 382.0, 22.0 ],
-													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI/textes\""
+													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI/textes/\""
 												}
 
 											}
@@ -13952,14 +13963,14 @@
 													"autopopulate" : 1,
 													"depth" : 1,
 													"id" : "obj-69",
-													"items" : [ "action/action1.txt", ",", "action/action2.txt", ",", "duo/txt1 copie 10.txt", ",", "duo/txt1 copie 9.txt", ",", "duoHF/txt1 copie 11.txt", ",", "duoHF/txt1 copie 12.txt", ",", "duoHF/txt1 copie 13.txt", ",", "duoHF/txt1 copie.txt", ",", "duoHF/txt1.txt", ",", "solo/txt1 copie 8.txt", ",", "soloF/txt1 copie 6.txt", ",", "soloF/txt1 copie 7.txt", ",", "soloH/txt1 copie 2.txt", ",", "soloH/txt1 copie 5.txt", ",", "trio/txt1 copie 3.txt", ",", "trio/txt1 copie 4.txt" ],
+													"items" : [ "action/tmp.txt", ",", "duo/tmp.txt", ",", "duoHF/tmp.txt", ",", "solo/tmp.txt", ",", "soloF/tmp.txt", ",", "soloH/tmp.txt", ",", "trio/tmp.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 65.0, 309.0, 100.0, 22.0 ],
-													"prefix" : "Macintosh HD:/Users/longsimulacre/Downloads/OPNI-master/textes/",
+													"prefix" : "Macintosh HD:/Users/longsimulacre/Downloads/OPNI/textes/",
 													"prefix_mode" : 2,
 													"types" : "TEXT"
 												}
@@ -14770,7 +14781,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-6",
-									"items" : [ "action/action1.txt", ",", "action/action2.txt", ",", "duo/txt1 copie 10.txt", ",", "duo/txt1 copie 9.txt", ",", "duoHF/txt1 copie 11.txt", ",", "duoHF/txt1 copie 12.txt", ",", "duoHF/txt1 copie 13.txt", ",", "duoHF/txt1 copie.txt", ",", "duoHF/txt1.txt", ",", "solo/txt1 copie 8.txt", ",", "soloF/txt1 copie 6.txt", ",", "soloF/txt1 copie 7.txt", ",", "soloH/txt1 copie 2.txt", ",", "soloH/txt1 copie 5.txt", ",", "trio/txt1 copie 3.txt", ",", "trio/txt1 copie 4.txt" ],
+									"items" : [ "action/tmp.txt", ",", "duo/tmp.txt", ",", "duoHF/tmp.txt", ",", "solo/tmp.txt", ",", "soloF/tmp.txt", ",", "soloH/tmp.txt", ",", "trio/tmp.txt" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -14800,8 +14811,8 @@
 								"box" : 								{
 									"bgcolor" : [ 0.235294, 0.235294, 0.235294, 1.0 ],
 									"bordercolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-									"coldef" : [ [ 0, 150, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ] ],
-									"cols" : 1,
+									"coldef" : [ [ 0, 150, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 1, 35, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 2, 35, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 3, 35, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+									"cols" : 4,
 									"colwidth" : 90,
 									"fgcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
 									"fontface" : 0,
@@ -14820,7 +14831,7 @@
 									"patching_rect" : [ 50.0, 210.0, 279.0, 181.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 131.0, 273.0, 560.0 ],
-									"rows" : 1,
+									"rows" : 7,
 									"savemode" : 1,
 									"sccolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"selmode" : 3,
@@ -14834,12 +14845,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-68",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 118.0, 71.0, 22.0 ],
-									"text" : "refer textes"
+									"patching_rect" : [ 10.0, 118.0, 271.0, 35.0 ],
+									"text" : "refer textes, col 0 width 150, col 1 width 35, col 2 width 35, col 3 width 35"
 								}
 
 							}
@@ -14933,7 +14945,7 @@
 									"patching_rect" : [ 50.0, 179.5, 142.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 111.0, 255.5, 20.0 ],
-									"text" : "\"solo/txt1 copie 8.txt\"",
+									"text" : "trio/tmp.txt",
 									"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ]
 								}
 
@@ -15051,6 +15063,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-112", 2 ],
 									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-67", 0 ],
+									"source" : [ "obj-24", 0 ]
 								}
 
 							}

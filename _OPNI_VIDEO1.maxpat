@@ -3463,7 +3463,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u240001588"
+									"varname" : "u575001584"
 								}
 
 							}
@@ -7293,7 +7293,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 298.0, 297.0, 50.0, 22.0 ],
-													"text" : "28"
+													"text" : "127"
 												}
 
 											}
@@ -7305,7 +7305,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 569.0, 197.0, 426.0, 22.0 ],
-													"text" : "text fps : \"72.59\" ___ time : 02:00:00 ___ ___"
+													"text" : "text fps : \"896.09\" ___ time : 02:00:00 ___ ___"
 												}
 
 											}
@@ -9447,7 +9447,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 346.0, 379.0, 53.0, 49.0 ],
-													"text" : "sync click 1 0 0 0"
+													"text" : "sync select 0 0"
 												}
 
 											}
@@ -10908,7 +10908,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 186.5, 82.0, 473.0, 22.0 ],
+													"patching_rect" : [ 516.5, 330.0, 473.0, 22.0 ],
 													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI/videos\""
 												}
 
@@ -12314,7 +12314,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 286.0, 82.0, 473.0, 22.0 ],
-													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI/videos/\""
+													"text" : "\"Macintosh HD:/Users/longsimulacre/Downloads/OPNI/videos\""
 												}
 
 											}
@@ -12747,7 +12747,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-2", 1 ],
-													"order" : 0,
+													"order" : 1,
 													"source" : [ "obj-7", 0 ]
 												}
 
@@ -12755,7 +12755,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-20", 0 ],
-													"order" : 1,
+													"order" : 2,
+													"source" : [ "obj-7", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 1 ],
+													"order" : 0,
 													"source" : [ "obj-7", 0 ]
 												}
 
@@ -16604,9 +16612,9 @@
 																	"fontsize" : 12.0,
 																	"id" : "obj-25",
 																	"maxclass" : "newobj",
-																	"numinlets" : 1,
+																	"numinlets" : 2,
 																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
+																	"outlettype" : [ "list", "list" ],
 																	"patching_rect" : [ 85.0, 38.0, 65.0, 22.0 ],
 																	"text" : "changelist"
 																}
@@ -22369,6 +22377,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "changelist.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
